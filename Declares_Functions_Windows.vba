@@ -1,9 +1,11 @@
 '
+'   version: 2024-01-06
+'   Created by Parmenas Santos
+'   parmenassantos@gmail.com
 '
+'   GitHub repository - check for updates
+'   https://github.com/parmenassantos/Declares_WinSys32_To_VBA.git
 '
-'
-'
-
 Option Explicit
 
 ' // Constants Windows to title end bar
@@ -11,6 +13,7 @@ Public Const GWL_STYLE As Long = (-16)
 Public Const GWL_EXSTYLE As Long = (-20)
 Public Const WS_CAPTION As Long = &HC00000
 Public Const WS_EX_DLGMODALFRAME As Long = &H1
+
 '// Constants WIndows to transparency
 Public Const WS_EX_LAYERED As Long = &H80000
 Public Const LWA_COLORKEY As Long = &H1
